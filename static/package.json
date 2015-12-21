@@ -5,7 +5,9 @@
   "author": "PeckZeg",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "grunt": "^0.4.5"
+    "app-root-path": "^1.0.0",
+    "grunt": "^0.4.5",
+    "lodash": "^3.10.1"
   },
   "devDependencies": {
     "glob": "^6.0.1",
