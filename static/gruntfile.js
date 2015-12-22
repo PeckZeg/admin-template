@@ -15,6 +15,9 @@ module.exports = function(grunt) {
     grunt.registerTask('default', [
         'compass',
         'rename',
+        'autoprefixer',
+        'cssmin',
+        'clean',
         'watch'
     ]);
 };

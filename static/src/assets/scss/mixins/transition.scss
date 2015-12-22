@@ -1,0 +1,7 @@
+//
+//  Mixins - Transition
+//  --------------------------------------------------
+
+@mixin enable-transition($attr: all) {
+    @include transition($attr $transition-duration $transition-timing);
+}
