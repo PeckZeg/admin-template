@@ -9,7 +9,7 @@ module.exports = {
         options: {
             // clean: true,
             sassDir: 'src/scss-bootstrap',
-            specify: 'src/scss-bootstrap/1.scss',
+            specify: 'src/scss-bootstrap/aaa.scss',
             cssDir: 'dest/css',
             outputStyle: 'compressed',
             noLineComments: true,
@@ -19,8 +19,8 @@ module.exports = {
     rename: {
         files: [
             {
-                src: ['dest/css/1.css'],
-                dest: 'dest/css/111.3.3.5.min.css'
+                src: ['dest/css/aaa.css'],
+                dest: 'dest/css/aaa.3.3.5.min.css'
             }
         ]
     },
@@ -30,6 +30,6 @@ module.exports = {
             'src/scss-bootstrap/**/*.scss',
         ],
 
-        tasks: ['task/scss/bootstrap']
+        tasks: ['task/scss/test/aaa']
     }
 };
