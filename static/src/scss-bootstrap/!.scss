@@ -4,7 +4,17 @@
 //  Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 //  --------------------------------------------------
 
-body {
-    boredr-radius: 100%;
-    animation: 1s infinite ease;
-}
+//  PeckZeg's Mixins & Variables
+@import "../assets/scss/mixins/box";
+@import "../assets/scss/variables/color";
+
+//  Core variables and mixins
+@import "variables";
+@import "mixins";
+
+// Override bootstrap variables to match Metronic style
+// @import "../scss-global/variables";
+// @import "../scss-global/bootstrap-override";
+
+//  Reset and dependencies
+@import "normalize";

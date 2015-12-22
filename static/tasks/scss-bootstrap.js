@@ -23,7 +23,7 @@ module.exports = {
 
     autoprefixer: {
         options: {
-            browsers: ['last 2 versions', 'ie 7', 'ie 8', 'ie 9'],
+            browsers: ['last 5 versions', 'ie 7', 'ie 8', 'ie 9'],
             map: true
         },
         src: '<%= rename["scss-bootstrap"].files[0].dest %>',

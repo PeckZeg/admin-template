@@ -1,0 +1,7 @@
+//  Mixins - Center-align a block level element
+//  --------------------------------------------------
+
+@mixin center-block() {
+    display: block;
+    @include margin-x(auto);
+}

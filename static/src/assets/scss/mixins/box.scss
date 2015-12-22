@@ -41,7 +41,7 @@
 }
 
 @mixin margin-x($size...) {
-    $default: 0;
+    $default: auto;
     $size: if(length($size) > 0, $size, $default);
     $left: set-unit(nth($size, 1), $default);
     $right: set-unit(nth($size, length($size)), $default);
@@ -51,7 +51,7 @@
 }
 
 @mixin margin-y($size...) {
-    $default: 0;
+    $default: auto;
     $size: if(length($size) > 0, $size, $default);
     $top: set-unit(nth($size, 1), $default);
     $btm: set-unit(nth($size, length($size)), $default);
